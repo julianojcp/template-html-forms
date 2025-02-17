@@ -1,0 +1,65 @@
+<html>
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+	
+	<!-- Milligram CSS Theme https://github.com/milligram/milligram-themes -->
+	<link rel="stylesheet" href="blue.css">
+	
+    <div class="container">
+        <h1>Tabela responsiva</h1>
+
+        <table>
+        <tr>
+            <th>nome</th>
+            <th>quanto</th>
+            <th>letra</th>
+            <th>1</th>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>r</td>
+            <td>1</td>
+        </tr>
+    </table>
+	
+	<h1>Form example</h1>
+	
+	<form>
+	  <fieldset>
+		  <div class="row">
+			<div class="column">
+				<label for="nameField">Name</label>
+				<input type="text" placeholder="CJ Patoilo" id="nameField">
+			</div>
+			<div class="column column-20">
+				<label for="ageRangeField">Age Range</label>
+				<select id="ageRangeField">
+				  <option value="0-13">0-13</option>
+				  <option value="14-17">14-17</option>
+				  <option value="18-23">18-23</option>
+				  <option value="24+">24+</option>
+				</select>
+			</div>
+		</div>
+		<label for="commentField">Comment</label>
+		<textarea placeholder="Hi CJ …" id="commentField"></textarea>
+		<div class="example-send-yourself-copy">
+		  <input type="checkbox" id="confirmField">
+		  <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+		</div>
+		<input class="button-primary" type="submit" value="Send">
+	  </fieldset>
+	</form>
+
+<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-inline"> inside of it -->
+
+    </div>
+
+</html>
+
